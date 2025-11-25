@@ -1,0 +1,19 @@
+@if (todos.length > 0) {
+  <main class="main" data-testid="todo-list">
+    <ul class="todo-list">
+      @for (todo of todos; track todo) {
+        <li [class.completed]="todo.completed">
+          <div class="view">
+            <input
+              class="toggle"
+              type="checkbox"
+              [checked]="todo.completed"
+              (click)="toggleTodo(todo)" />
+            <label>{{ todo.title }}</label>
+            <button class="destroy" (click)="removeTodo(todo)"></button>
+          </div>
+        </li>
+      }
+    </ul>
+  </main>
+}
