@@ -1,0 +1,6 @@
+<input
+  class="edit"
+  data-testid="edit-todo-input"
+  [(ngModel)]="editTitle"
+  (blur)="handleBlur()"
+  (keyup.enter)="updateTodo()" />
