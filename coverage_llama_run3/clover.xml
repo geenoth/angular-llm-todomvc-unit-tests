@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1764262611221" clover="3.2.0">
+  <project timestamp="1764262611221" name="All files">
+    <metrics statements="5" coveredstatements="3" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0" elements="8" coveredelements="3" complexity="0" loc="5" ncloc="5" packages="1" files="2" classes="2"/>
+    <file name="remaining-counter.component.html" path="D:\4th Year\2nd Sem\Resarch project\GENERATE TESTS\EXAMPLE\runner-angular\src\app\12_RemainingCounter\remaining-counter.component.html">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+    </file>
+    <file name="remaining-counter.component.ts" path="D:\4th Year\2nd Sem\Resarch project\GENERATE TESTS\EXAMPLE\runner-angular\src\app\12_RemainingCounter\remaining-counter.component.ts">
+      <metrics statements="4" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="0" type="stmt"/>
+      <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+    </file>
+  </project>
+</coverage>
