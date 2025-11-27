@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1764222225750" clover="3.2.0">
+  <project timestamp="1764222225750" name="All files">
+    <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0" elements="5" coveredelements="3" complexity="0" loc="4" ncloc="4" packages="1" files="2" classes="2"/>
+    <file name="destroy-button.component.html" path="D:\4th Year\2nd Sem\Resarch project\GENERATE TESTS\EXAMPLE\runner-angular\src\app\03_DestroyButton\destroy-button.component.html">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+    </file>
+    <file name="destroy-button.component.ts" path="D:\4th Year\2nd Sem\Resarch project\GENERATE TESTS\EXAMPLE\runner-angular\src\app\03_DestroyButton\destroy-button.component.ts">
+      <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="10" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>
