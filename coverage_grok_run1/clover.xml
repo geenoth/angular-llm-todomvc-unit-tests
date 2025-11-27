@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1764217849820" clover="3.2.0">
+  <project timestamp="1764217849820" name="All files">
+    <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3" elements="15" coveredelements="15" complexity="0" loc="10" ncloc="10" packages="1" files="2" classes="2"/>
+    <file name="edit-todo-input.component.html" path="D:\4th Year\2nd Sem\Resarch project\GENERATE TESTS\EXAMPLE\runner-angular\src\app\02_EditTodoInput\edit-todo-input.component.html">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+    </file>
+    <file name="edit-todo-input.component.ts" path="D:\4th Year\2nd Sem\Resarch project\GENERATE TESTS\EXAMPLE\runner-angular\src\app\02_EditTodoInput\edit-todo-input.component.ts">
+      <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="7" type="stmt"/>
+      <line num="13" count="7" type="stmt"/>
+      <line num="16" count="8" type="stmt"/>
+      <line num="20" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
