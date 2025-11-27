@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1764228928916" clover="3.2.0">
+  <project timestamp="1764228928917" name="All files">
+    <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="9" coveredelements="9" complexity="0" loc="7" ncloc="7" packages="1" files="2" classes="2"/>
+    <file name="todo-list.component.html" path="D:\4th Year\2nd Sem\Resarch project\GENERATE TESTS\EXAMPLE\runner-angular\src\app\05_TodoList\todo-list.component.html">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+    </file>
+    <file name="todo-list.component.ts" path="D:\4th Year\2nd Sem\Resarch project\GENERATE TESTS\EXAMPLE\runner-angular\src\app\05_TodoList\todo-list.component.ts">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="15" count="6" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
