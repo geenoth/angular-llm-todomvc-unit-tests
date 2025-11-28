@@ -1,59 +1,71 @@
 # RunnerAngular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.0.
+A research project for test generation using Angular 21.0.0 with Jest testing framework.
 
-## Development server
+## Prerequisites
 
-To start a local development server, run:
+- Node.js (npm 10.9.2 or higher)
+- Angular CLI 21.0.0
+
+## Installation
 
 ```bash
+npm install
+```
+
+## Development
+
+### Start development server
+```bash
+npm start
+# or
 ng serve
 ```
+Navigate to `http://localhost:4200/`
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
+### Build for production
 ```bash
-ng generate component component-name
+npm run build
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
+### Watch mode (development build)
 ```bash
-ng generate --help
+npm run watch
 ```
 
-## Building
+## Testing
 
-To build the project run:
+This project uses Jest with Angular Testing Library for unit testing.
 
+### Run tests
 ```bash
-ng build
+npm test
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+### Testing setup includes:
+- Jest 30.2.0
+- Angular Testing Library 18.1.1
+- Jest DOM matchers
+- User event testing utilities
 
-## Running unit tests
+## Project Structure
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
+```
+src/
+├── app/
+│   ├── 00_ComponentName/    # Component directory
+│   ├── app.config.ts        # App configuration
+│   ├── app.html            # Main template
+│   ├── app.scss            # Global styles
+│   ├── app.spec.ts         # App tests
+│   └── app.ts              # Main component
+├── index.html              # Entry HTML
+├── main.ts                 # Bootstrap file
+└── styles.scss             # Global styles
 ```
 
-## Running end-to-end tests
+## Code Quality
 
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Prettier configured for consistent formatting
+- TypeScript strict mode enabled
+- Jest for comprehensive testing
